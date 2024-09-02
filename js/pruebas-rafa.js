@@ -12,9 +12,9 @@ function probarValidarNombre() {
   );
 }
 
-function probarValidarCiudad() {
+function probarValidarProvincia() {
   console.assert(
-    validarCiudad("") === "Debe elegir una provincia",
+    validarProvincia("") === "Debe elegir una provincia",
     "Validar ciudad no valido que se haya seleccionado una provincia"
   );
 }
@@ -34,5 +34,5 @@ function probarValidarDescripcionRegalo() {
 }
 
 probarValidarNombre();
-probarValidarCiudad();
-probarValidarDescripcionRegalo();
+probarValidarProvincia();
+probarValidarDescripcionRegalo(); 

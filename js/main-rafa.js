@@ -1,7 +1,7 @@
 const $form = document.querySelector("#carta-a-santa");
 
 const nombre = $form.nombre.value;
-const ciudad = $form.ciudad.value;
+const provincia = $form.provincia.value;
 const comportamiento = $form.comportamiento.value;
 const descripcionRegalo = $form["descripcion-regalo"].value;
 
@@ -15,9 +15,8 @@ function validarNombre(nombre) {
   return "";
 }
 
-function validarCiudad(ciudad){
-  if(ciudad.length === 0 )
-    return "Debe elegir una provincia";
+function validarProvincia(provincia) {
+  if (provincia.length === 0) return "Debe elegir una provincia";
   return "";
 }
 
