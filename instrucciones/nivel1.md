@@ -311,7 +311,7 @@ El método `forEach` lo podemos ver [en MDN directamente](https://developer.mozi
 TAREA:
   3. En 5 segundos vamos redireccionar al usuario a `wishlist.html`,
   usando `setTimeout` y `window.location.href`.
-
+  4. que no se dupliquen los errores
 
 //////////////////////////////////////////////////////////////////////////////////
 
