@@ -1,13 +1,13 @@
 function probarValidarNombre() {
   console.assert(
-    validarNombre("") === "Este campo debe tener al menos 1 caracter",
+    validarNombre("") === "El campo nombre debe tener al menos 1 caracter",
     "Validar nombre no funciono con un string vacio"
   );
 
   console.assert(
     validarNombre(
       "asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd"
-    ) === "Este campo debe tener menos de 50 caracteres",
+    ) === "El campo nombre debe tener menos de 50 caracteres",
     "Validar nombre no valido que el nombre sea menor a 50 caracteres"
   );
 
@@ -42,7 +42,7 @@ function probarValidarDescripcionRegalo() {
   console.assert(
     validarDescripcionRegalo(
       "asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd"
-    ) === "El campo debe tener menos de 100 caracteres",
+    ) === "El campo descripcion debe tener menos de 100 caracteres",
     "Validar descripcion regalo no valido que sean menos de 100 caracteres"
   );
   console.assert(
